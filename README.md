@@ -11,6 +11,7 @@ Steps Involved:<br />
 3.(Optional,but highly recommended) Run a Second Script that allows the vehicle to move in your desired path for optimal scanning purposes<br /> 
 4.Once the movement script is completed, or when you decided that enough points have been collected, select the terminal where you are running the point cloud script from, and input the keyboard interrupt: 'Ctrl+C', this will end the script and save the point cloud data<br /> 
 5.The point cloud data will then be stored as 'data.asc' in the selected file location where the lidar point cloud script was run in<br /> 
-6.You can open 'data.asc' with third party software (CloudCompare is highly recommended) to view the point cloud<br /> 
+6.You can open 'data.asc' with third party software (CloudCompare is highly recommended) to view the point cloud according to your specific usecase (de-noising, segmentation, transformation, alignment, etc.). Another good alternative for this is MeshLab<br /> 
 
 CloudCompare Download Link: http://www.danielgm.net/cc/release/<br /> 
+MeshLab Download Link: https://www.meshlab.net/#download<br /> 
