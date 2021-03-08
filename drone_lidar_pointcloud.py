@@ -23,17 +23,15 @@ class LidarTest:
 
     def execute(self):
         #self.client.reset()
-        i=0
+        print('Scanning Has Started')
         f = open('data.asc', "w")
         try:
             while True:
-                i=i+1
                 lidarData = self.client.getLidarData();
                 [q0,q1,q2,q3] = [lidarData.pose.orientation.w_val,lidarData.pose.orientation.x_val,lidarData.pose.orientation.y_val,lidarData.pose.orientation.z_val]
                 rotationMatrix = numpy.array(([1-2*(q2*q2+q3*q3),2*(q1*q2-q3*q0),2*(q1*q3+q2*q0)],
                                               [2*(q1*q2+q3*q0),1-2*(q1*q1+q3*q3),2*(q2*q3-q1*q0)],
                                               [2*(q1*q3-q2*q0),2*(q2*q3+q1*q0),1-2*(q1*q1+q2*q2)]))
-
                 flag = 0
                 XYZ = numpy.zeros((3,1))
                 for item in lidarData.point_cloud:
