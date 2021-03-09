@@ -65,4 +65,3 @@ class LidarTest:
 if __name__ == "__main__":
     lidarTest = LidarTest()
     lidarTest.execute()
-    lidarTest.stop()
