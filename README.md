@@ -15,3 +15,13 @@ Steps Involved:<br />
 
 CloudCompare Download Link: http://www.danielgm.net/cc/release/<br /> 
 MeshLab Download Link: https://www.meshlab.net/#download<br /> 
+
+
+Example Outputs:
+
+![Capture 1](https://user-images.githubusercontent.com/44498143/110518904-affa2700-8147-11eb-9b53-ac47e56a1c8d.PNG)
+![Capture 2](https://user-images.githubusercontent.com/44498143/110518912-b2f51780-8147-11eb-992e-c09fd336abd8.PNG)
+
+Configuration of LiDAR sensor used:
+
+![Capture 3](https://user-images.githubusercontent.com/44498143/110519310-1da65300-8148-11eb-9fc8-e1593f6430ec.PNG)
