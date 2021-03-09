@@ -57,14 +57,9 @@ class LidarTest:
             f.close()
             pass
             #time.sleep(5)
-
-    def stop(self):
-
-        airsim.wait_key('Press any key to reset to original state')
-
-        self.client.reset()
-
-        print("Done!\n")
+            airsim.wait_key('Press any key to reset to original state')
+            self.client.reset()
+            print("Done!\n")
 
 # main
 if __name__ == "__main__":
