@@ -1,7 +1,7 @@
 # AirSimLiDARpointcloud
 
 *DISCLAIMER: This Script is made to run in parallel to existing multirotor/car movement scripts. It does not have any effect on the vehicle used when it comes to displacement of any sort, it is just meant to scan and model whatever the LiDAR sensor is able to see at any given moment.<br /> 
-*Additional Note: Make sure you have a LiDAR sensor configured under the AirSim settings.json file before running this script<br /> 
+*Additional Note: Make sure you have a LiDAR sensor configured under the AirSim settings.json file before running this script, based on the DataFrame chosen, please run the relevant script<br /> 
 
 The best way to run this script is through the 'CMD.exe Prompt' application on anaconda3<br /> 
 
