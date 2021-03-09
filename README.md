@@ -16,7 +16,7 @@ Steps Involved:<br />
 CloudCompare Download Link: http://www.danielgm.net/cc/release/<br /> 
 MeshLab Download Link: https://www.meshlab.net/#download<br /> 
 
-*Another Additional Note: So long as the starting position of the drone is constant, multiple scans can be superimposed onto each other by merging the contents .asc files. This may be used for additional accuracy<br />
+*Another Additional Note: So long as the starting position of the drone is constant, multiple scans can be superimposed onto each other by merging the contents of the .asc files. This may be used for additional accuracy<br />
 
 Example Outputs:
 
